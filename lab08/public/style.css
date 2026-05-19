@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+
+    font-size: 20px;
+
+    background: radial-gradient(circle at top, #1a1a2e, #0f172a 70%);
+    color: #f97316;
+
+    font-family: Arial, sans-serif;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+.botao{
+    position: fixed;
+
+    top: 900px;
+    left: 5px;
+
+    text-decoration: none;
+    display: block;
+
+    width: fit-content;
+
+    font-size: 15px;
+
+    border: 2px solid #00ff88;
+
+    padding: 10px 10px;
+
+    background-color: #001a33;
+    color: #00ff88;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: #00ff88;
+    color: #001a33;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+a{
+font-size:15px;
+}
+
+.resposta{
+    color: white;
+    min-width: 400px;
+
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+.sucesso{
+    background: linear-gradient(135deg, #00b894, #009966);
+}
+
+.erro{
+    background: linear-gradient(135deg, #ff4d4d, #b30000);
+}
+
+.resposta h1{
+    margin: 0;
+    text-align: center;
+}

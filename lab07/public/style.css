@@ -1,0 +1,57 @@
+#canvas{
+    color: rgb(38, 113, 173);
+    color: rgba(165, 42, 42, 0.877);
+    background-color: rgb(68, 190, 180);
+}
+
+body{
+  margin: 0;
+    height: 100vh; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center;    
+  background: radial-gradient(circle at top, #1a1a2e, #0f172a 70%);
+}
+
+.botao1 {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+    display: block;
+    width: fit-content;
+
+    font-size: 15px;
+
+    border: 2px solid #00ff88;
+    padding: 10px 10px;
+
+    background-color: #001a33;
+    color: #00ff88;
+
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao {
+    position: fixed;
+     top: 1px;
+    left: 5px;
+    
+
+    display: block;
+    width: fit-content;
+
+    font-size: 15px;
+
+    border: 2px solid #00ff88;
+    padding: 10px 10px;
+
+    background-color: #001a33;
+    color: #00ff88;
+
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}

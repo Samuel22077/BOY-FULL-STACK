@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+    height: 100vh; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center;    
+  background: radial-gradient(circle at top, #1a1a2e, #0f172a 70%);
+}
+
+#canvas{
+    background-color: black;
+}
+
+.botao{
+ position: fixed;
+ top: 900px;
+    left: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+
+    font-size: 15px;
+
+    border: 2px solid #00ff88;
+    padding: 10px 10px;
+
+    background-color: #001a33;
+    color: #00ff88;
+
+    border-radius: 8px;
+    font-weight: bold;
+}

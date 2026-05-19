@@ -1,0 +1,23 @@
+body{
+background: radial-gradient(circle at top, #1a1a2e, #0f172a 70%);
+justify-content: center;
+display: flex;
+align-items: center;
+
+}
+.digite{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#container {
+  text-align: center;
+  padding: 50px;       /* aumenta o espaço interno */
+  width: 250px;        /* largura maior */
+  height: 200px;       /* altura maior */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px; /* cantos arredondados, opcional */
+  }
