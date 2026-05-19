@@ -1,0 +1,11 @@
+npm install mongoose
+
+winget install MongoDB.Server
+
+winget install MongoDB.Shell
+
+net start MongoDB
+
+npm install dotenv
+
+npm install mongoose dotenv
